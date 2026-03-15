@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Student Registration Form</title>
+<style>
+body{
+background-color: #f2f2f2;
+}
+.gradient{
+background:linear-gradient(green,yellow);
+-webkit-background-clip:text;
+color:transparent;
+}
+</style>
+</head>
+<body>
+<h1 class="gradient">Student Registration Form</h1>
+<form>
+<label>First Name</label>
+<input type="text" name="Name"><br><br>
+<label>Last Name</label>
+<input type="text" name="Name"><br><br>
+<label>Email</label>
+<input type="text" name="Email"><br><br>
+<label>Password</label>
+<input type="password" name="password"><br><br>
+<label>Gender</label><br><br>
+<input type="radio" name="gender">Male
+<input type="radio" name="gender">Female
+<input type="radio" name="gender">others
+<br><br>
+<label>DOB</label>
+<input type="date" name="dob"><br><br>
+<label>Phone Number</label>
+<input type="tel" name="Phone"><br><br>
+<label>Courses:</label>
+<select name="courses">
+<option value="cse">CSE</option>
+<option value="Ece">ECE</option>
+<option value="Civ">CIV</option>
+<option value="EEE">EEE</option>
+<option value="Mech">MECH</option>
+</select>
+<br> <br>
+<label>Address</label>
+<textarea rows="4" cols="30"></textarea>
+<br><br>
+
+<input type="reset" value="clear"><br><br>
+<input type="submit" value="Register"><br>
+
+</form>
+
+</body>
+
+</html>
